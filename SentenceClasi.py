@@ -35,6 +35,7 @@ if __name__ == '__main__' :
 	label = sentclasi.classifySentence(texts)
 	#result = sentclasi.classPrecision(texts)
 	print (label)
+	 #打印结果:[['check']]
 	#print (result.precision)
 	#print (result.recall)
 	str2 = u"HSBC，帮我转帐"
@@ -44,3 +45,4 @@ if __name__ == '__main__' :
 	print (texts)
 	label = sentclasi.classifySentence(texts)
 	print (label)
+	 #打印结果:[[]'forward']
